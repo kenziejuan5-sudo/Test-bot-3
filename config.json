@@ -1,0 +1,13 @@
+{
+    "min_delay": 0.8,
+    "max_delay": 2.5,
+    "max_actions_per_hour": 45,
+    "break_chance": 0.08,
+    "break_duration": [120, 300],
+    "typing_simulate": true,
+    "random_reply_chance": 0.3,
+    "use_proxy": false,
+    "heartbeat_jitter": true,
+    "target_guild_id": 0,
+    "stage": 4
+}
