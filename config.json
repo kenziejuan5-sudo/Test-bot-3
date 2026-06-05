@@ -1,19 +1,17 @@
 {
-    "min_delay": 1.2,                 // Ditingkatin dikit biar makin aman
-    "max_delay": 3.5,                 // Ditingkatin juga
-    "max_actions_per_hour": 35,       // Dikurangin biar makin slow dan aman
-    "break_chance": 0.15,             // Dinaikin biar makin sering break
-    "break_duration": [180, 600],     // Durasi break-nya dipanjangin 3-10 menit
+    "min_delay": 1.2,
+    "max_delay": 3.5,
+    "max_actions_per_hour": 90,
+    "break_chance": 0.15,
+    "break_duration": [180, 600],
     "typing_simulate": true,
-    "random_reply_chance": 0.4,       // Dinaikin dikit
+    "random_reply_chance": 0.4,
     "use_proxy": true,
     "heartbeat_jitter": true,
-    "target_guild_id": 123456789012345678, // Ganti pake ID server target
-    "stage": 4,                       // Atau pilih stage 1,2,3 kalo mau pelan-pelan
-    
-    // 👇 Tambahan parameter baru
-    "channel_switch_delay": [2.0, 5.0],   // Jeda waktu pas pindah channel
-    "typing_speed_variance": 0.3,          // Seberapa acak waktu ngetik (0-1)
-    "safety_mode": true,                  // Kalo true, otomatis set parameter ke mode aman
-    "proxy_health_check_interval": 1800   // Cek proxy tiap 30 menit (dalam detik)
+    "target_guild_id": 0,
+    "stage": 4,
+    "channel_switch_delay": [2.0, 5.0],
+    "typing_speed_variance": 0.3,
+    "safety_mode": true,
+    "proxy_health_check_interval": 1800
 }
